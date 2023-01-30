@@ -85,3 +85,18 @@ header {
 		display: none;
 	}
 }
+
+/* =============== MEDIA QUERIES (EXTRA SMALL DEVICES) =============== */
+@media screen and (max-width: 400px) {
+	header {
+		height: 110vh;
+	}
+
+	.me {
+		width: 16rem;
+		height: 32rem;
+		left: calc(50% - 8rem);
+		margin-top: 2rem;
+		padding: 3rem 1.5rem 1.5rem 1.5rem;
+	}
+}
