@@ -13,6 +13,13 @@ import {
 	nodejs,
 	mongodb,
 	git,
+	github,
+	facebook,
+	linkedin,
+	twitter,
+	instagram,
+	gmail,
+	whatsapp,
 	figma,
 	docker,
 	meta,
@@ -262,4 +269,42 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socials = [
+	{
+		name: "github",
+		link: "https://github.com/Hamzi-SE",
+		icon: github,
+	},
+	{
+		name: "linkedin",
+		link: "https://www.linkedin.com/in/hamzi-se",
+		icon: linkedin,
+	},
+	{
+		name: "facebook",
+		link: "https://www.facebook.com/Hamzii.SE",
+		icon: facebook,
+	},
+	{
+		name: "twitter",
+		link: "https://twitter.com/Hamzii_SE",
+		icon: twitter,
+	},
+	{
+		name: "instagram",
+		link: "https://www.instagram.com/hamza._.se",
+		icon: instagram,
+	},
+	{
+		name: "gmail",
+		link: "mailto:hamzii.se@gmail.com",
+		icon: gmail,
+	},
+	{
+		name: "whatsapp",
+		link: "https://wa.me/923156088777",
+		icon: whatsapp,
+	},
+];
+
+export { services, technologies, experiences, testimonials, projects, socials };

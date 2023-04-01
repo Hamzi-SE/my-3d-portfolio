@@ -6,6 +6,12 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import facebook from "./facebook.png";
+import linkedin from "./linkedin.png";
+import twitter from "./twitter.png";
+import instagram from "./instagram.png";
+import gmail from "./gmail.png";
+import whatsapp from "./whatsapp.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -39,6 +45,12 @@ export {
 	mobile,
 	web,
 	github,
+	facebook,
+	linkedin,
+	twitter,
+	instagram,
+	gmail,
+	whatsapp,
 	menu,
 	close,
 	css,
