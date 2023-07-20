@@ -21,290 +21,343 @@ import {
 	gmail,
 	whatsapp,
 	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	nextjs,
+	upwork,
+	codify,
+	fiverr,
+	skillsurge,
+	nelami,
+	nextchatter,
+	airbnb,
+	blogapp,
 	threejs,
 	link,
-} from "../assets";
+} from '../assets'
 
 export const navLinks = [
 	{
-		id: "about",
-		title: "About",
+		id: 'about',
+		title: 'About',
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: 'work',
+		title: 'Work',
 	},
 	{
-		id: "contact",
-		title: "Contact",
+		id: 'contact',
+		title: 'Contact',
 	},
-];
+]
 
 const services = [
 	{
-		title: "Web Developer",
+		title: 'MERN Developer',
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: 'React Native Developer',
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: 'Next JS Developer',
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: 'Wordpress Developer',
 		icon: creator,
 	},
-];
+]
 
 const technologies = [
 	{
-		name: "HTML 5",
+		name: 'HTML 5',
 		icon: html,
 	},
 	{
-		name: "CSS 3",
+		name: 'CSS 3',
 		icon: css,
 	},
 	{
-		name: "JavaScript",
+		name: 'JavaScript',
 		icon: javascript,
 	},
 	{
-		name: "TypeScript",
+		name: 'TypeScript',
 		icon: typescript,
 	},
 	{
-		name: "React JS",
+		name: 'React JS',
 		icon: reactjs,
 	},
 	{
-		name: "Redux Toolkit",
+		name: 'Redux Toolkit',
 		icon: redux,
 	},
 	{
-		name: "Tailwind CSS",
+		name: 'Tailwind CSS',
 		icon: tailwind,
 	},
 	{
-		name: "Node JS",
+		name: 'Node JS',
 		icon: nodejs,
 	},
 	{
-		name: "MongoDB",
+		name: 'MongoDB',
 		icon: mongodb,
 	},
 	{
-		name: "Three JS",
+		name: 'Three JS',
 		icon: threejs,
 	},
 	{
-		name: "git",
+		name: 'git',
 		icon: git,
 	},
 	{
-		name: "figma",
+		name: 'figma',
 		icon: figma,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: 'Next JS',
+		icon: nextjs,
 	},
-];
+]
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		title: 'Full Stack Web Developer',
+		company_name: 'Upwork',
+		icon: upwork,
+		iconBg: '#00AB00',
+		date: 'April 2023 - Present',
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			'Committed to staying up-to-date with the latest industry trends and best practices to deliver cutting-edge solutions for clients and projects.',
+			'Participating in code reviews and providing constructive feedback to clients.',
+			'Enthusiasm for taking on challenging projects and tackling complex technical problems with a proactive and solutions-oriented approach.',
+			'Leveraging effective communication and collaboration skills to work seamlessly with clients on Upwork, ensuring a clear understanding of their project requirements and delivering exceptional results that meet and exceed expectations.',
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		title: 'MERN Stack Developer',
+		company_name: 'Codify Pvt Limited',
+		icon: codify,
+		iconBg: '#000',
+		date: 'June 2022 - September 2022',
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			'Developed a full-stack e-commerce web application using MERN Stack.',
+			'Implemented a responsive design and ensured cross-browser compatibility.',
+			'Worked in a team of 3 developers to design and develop new features for the platform.',
+			'Tested and debugged code to ensure high-quality standards.',
+			'Received positive feedback from the client for delivering high-quality work.',
+			'Received employee of the month award and a bonus for completing the project before the deadline.',
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		title: 'Wordpress Developer',
+		company_name: 'Fiverr',
+		icon: fiverr,
+		iconBg: '#00B22D',
+		date: 'Jan 2021 - Jan 2022',
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Developed Wordpress websites for client's businesses all over the world.",
+			'Ensured seamless cross-browser compatibility and responsiveness of the websites, optimizing user experiences across devices.',
+			'Conducted meetings with clients to thoroughly understand their requirements, enabling the delivery of tailored and effective solutions.',
+			'Provided ongoing support to clients post-project completion, ensuring their continued satisfaction with the delivered solutions.',
+			'Received positive feedback from clients for delivering high-quality work and the positive impact on their businesses.',
 		],
 	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-];
+]
 
 const testimonials = [
 	{
-		testimonial: "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+		testimonial:
+			"Hamza was incredibly nice, quickly grasped the whole project, and delivered high-quality work. We're grateful for his valuable contribution to the project and will definitely hire him for future work.",
+		name: 'Moritz Roessler',
+		designation: 'Creator',
+		company: 'React Server',
+		image: 'https://lh3.googleusercontent.com/a/AGNmyxY-uZ8uZGWvTY0-9tdnc1uAcHPERm8LOCgQX8mHHQ=s96-c',
 	},
 	{
-		testimonial: "I've never met a web developer who truly cares about their clients' success like Hamza does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+		testimonial:
+			"I've never met a web developer who truly cares about their clients' success like Hamza does. Exceeded my expectations in every way. I will definitely be working with him again.",
+		name: 'Ramiro Arto',
+		designation: 'Founder',
+		company: 'Lokalum Store',
+		image: 'https://www.dpforwhatsapp.in/img/no-dp-images/7.webp',
 	},
 	{
-		testimonial: "After Hamza optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+		testimonial:
+			'He’s the best! Had me fully functioning website in a few days. He’s going to be my go to guy any time I need website. Highly recommend!',
+		name: 'Alex',
+		designation: 'Founder',
+		company: 'SARAKI TRANSPORT LLC',
+		image:
+			'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/35c64c5c5037a9bd446dac5824372ac8-1038928401641709205.444221/CF314397-EC1D-412D-A90E-8CDE663092CE',
 	},
-];
+]
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: 'Skill Surge',
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			'A subscription-based online learning platform offering users the ability to purchase a subscription and access a wide range of courses. The platform is complemented with an intuitive admin dashboard for effective course management, user administration, and course creation.',
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
+				name: 'react',
+				color: 'blue-text-gradient',
 			},
 			{
-				name: "mongodb",
-				color: "green-text-gradient",
+				name: 'mongodb',
+				color: 'green-text-gradient',
 			},
 			{
-				name: "tailwind",
-				color: "pink-text-gradient",
+				name: 'chakraui',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'stripe',
+				color: 'orange-text-gradient',
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		deployed: "https://car-rental-website.netlify.app/",
+		image: skillsurge,
+		source_code_link: 'https://github.com/Hamzi-SE/Course-Platform',
+		deployed: 'https://skillsurge.vercel.app/',
 		deployed_image: link,
 	},
 	{
-		name: "Job IT",
+		name: 'Nelami',
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			'A multi-vendor e-commerce platform enabling buyers to bid on a diverse range of products from various sellers, while sellers can easily list different items for auction. Additionally, the platform provides an efficient admin dashboard for seamless management of products, sellers, and orders.',
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
+				name: 'react',
+				color: 'blue-text-gradient',
 			},
 			{
-				name: "restapi",
-				color: "green-text-gradient",
+				name: 'mongodb',
+				color: 'green-text-gradient',
 			},
 			{
-				name: "scss",
-				color: "pink-text-gradient",
+				name: 'stripe',
+				color: 'orange-text-gradient',
+			},
+			{
+				name: 'cloudinary',
+				color: 'pink-text-gradient',
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: nelami,
+		source_code_link: 'https://github.com/',
 	},
 	{
-		name: "Trip Guide",
+		name: 'NextChatter',
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			'A real-time chat application that facilitates seamless user-to-user communication across multiple rooms. The app incorporates real-time notifications for new messages and incoming friend requests. The app also offers a user-friendly interface for handling incoming and outgoing friend requests.',
 		tags: [
 			{
-				name: "nextjs",
-				color: "blue-text-gradient",
+				name: 'nextjs',
+				color: 'blue-text-gradient',
 			},
 			{
-				name: "supabase",
-				color: "green-text-gradient",
+				name: 'redis',
+				color: 'pink-text-gradient',
 			},
 			{
-				name: "css",
-				color: "pink-text-gradient",
+				name: 'tailwindcss',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'typescript',
+				color: 'blue-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: nextchatter,
+		source_code_link: 'https://github.com/',
+		deployed: 'https://nextchatter.vercel.app/',
+		deployed_image: link,
 	},
-];
+	{
+		name: 'Airbnb Clone',
+		description:
+			'An Airbnb clone developed using NextJs, TypeScript, and Cloudinary, providing a seamless platform for users to discover, book, and list accommodations worldwide.',
+		tags: [
+			{
+				name: 'nextjs',
+				color: 'orange-text-gradient',
+			},
+			{
+				name: 'typescript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'mongodb',
+				color: 'green-text-gradient',
+			},
+		],
+		image: airbnb,
+		source_code_link: 'https://github.com/',
+		deployed: 'https://nextairbnbclone.vercel.app/',
+		deployed_image: link,
+	},
+	{
+		name: 'Blog App',
+		description:
+			'A blog app developed with React Native, Node, Express, and MongoDB. Seamless reading and related recommendations. A separate user-friendly web interface for creating and publishing blogs.',
+		tags: [
+			{
+				name: 'react native',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'mern',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'tailwindcss',
+				color: 'green-text-gradient',
+			},
+		],
+		image: blogapp,
+		source_code_link: 'https://github.com/',
+	},
+]
 
 const socials = [
 	{
-		name: "github",
-		link: "https://github.com/Hamzi-SE",
+		name: 'github',
+		link: 'https://github.com/Hamzi-SE',
 		icon: github,
 	},
 	{
-		name: "linkedin",
-		link: "https://www.linkedin.com/in/hamzi-se",
+		name: 'linkedin',
+		link: 'https://www.linkedin.com/in/hamzi-se',
 		icon: linkedin,
 	},
 	{
-		name: "facebook",
-		link: "https://www.facebook.com/Hamzii.SE",
+		name: 'facebook',
+		link: 'https://www.facebook.com/Hamzii.SE',
 		icon: facebook,
 	},
 	{
-		name: "twitter",
-		link: "https://twitter.com/Hamzii_SE",
+		name: 'twitter',
+		link: 'https://twitter.com/Hamzii_SE',
 		icon: twitter,
 	},
 	{
-		name: "instagram",
-		link: "https://www.instagram.com/hamza._.se",
+		name: 'instagram',
+		link: 'https://www.instagram.com/hamza._.se',
 		icon: instagram,
 	},
 	{
-		name: "gmail",
-		link: "mailto:hamzii.se@gmail.com",
+		name: 'gmail',
+		link: 'mailto:hamzii.se@gmail.com',
 		icon: gmail,
 	},
 	{
-		name: "whatsapp",
-		link: "https://wa.me/923156088777",
+		name: 'whatsapp',
+		link: 'https://wa.me/923156088777',
 		icon: whatsapp,
 	},
-];
+]
 
-export { services, technologies, experiences, testimonials, projects, socials };
+export { services, technologies, experiences, testimonials, projects, socials }
