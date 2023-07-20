@@ -31,11 +31,11 @@ import fiverr from './company/fiverr.png'
 import upwork from './company/upwork.png'
 import codify from './company/codify.png'
 
-import skillsurge from './Skillsurge.webp'
-import nextchatter from './NextChatter.webp'
-import airbnb from './Airbnb.webp'
-import blogapp from './BlogApp.webp'
-import nelami from './Nelami.webp'
+import skillsurge from './skillsurge.png'
+import nextchatter from './nextchatter.png'
+import airbnb from './airbnb.png'
+import blogapp from './blogapp.png'
+import nelami from './nelami.png'
 
 import link from './link.png'
 
