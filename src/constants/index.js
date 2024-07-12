@@ -179,20 +179,20 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Hamza does. Exceeded my expectations in every way. I will definitely be working with him again.",
+			"Hamza is a very dedicated and professional developer that loves what he does and it shows on the delivered work.",
 		name: 'Ramiro Arto',
 		designation: 'Founder',
 		company: 'Lokalum Store',
-		image: 'https://www.dpforwhatsapp.in/img/no-dp-images/7.webp',
+		image: 'https://photosly.net/wp-content/uploads/2023/12/no-dp32.jpg',
 	},
 	{
 		testimonial:
-			'He’s the best! Had me fully functioning website in a few days. He’s going to be my go to guy any time I need website. Highly recommend!',
-		name: 'Alex',
+			`Awesome work by Hamza. He completed project on time. He responded to all the requests. He is Amazing. I would hire him again.`,
+		name: 'Sanket',
 		designation: 'Founder',
-		company: 'SARAKI TRANSPORT LLC',
+		company: 'My Essay Guru',
 		image:
-			'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/35c64c5c5037a9bd446dac5824372ac8-1038928401641709205.444221/CF314397-EC1D-412D-A90E-8CDE663092CE',
+			'https://www.upwork.com/profile-portraits/c111Ob7X55GrZ3j59W1YBmb6vHMf19_osc1nn0HIgloVY9_kX8n_HGP8hM7GEeFKLA',
 	},
 ]
 
@@ -248,6 +248,8 @@ const projects = [
 		],
 		image: nelami,
 		source_code_link: 'https://github.com/',
+		deployed: 'https://nelami.ihamza.dev/',
+		deployed_image: link,
 	},
 	{
 		name: 'NextChatter',
