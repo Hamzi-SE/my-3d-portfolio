@@ -1,4 +1,4 @@
-Welcome to my personal portfolio website, Hamzii.me! 
+Welcome to my personal portfolio website, ihamza.dev! 
 
 On this website, I have covered the following topics: 
 
