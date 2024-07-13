@@ -352,7 +352,7 @@ const socials = [
 	},
 	{
 		name: 'gmail',
-		link: 'mailto:hamzii.se@gmail.com',
+		link: 'mailto:contact@ihamza.dev',
 		icon: gmail,
 	},
 	{
