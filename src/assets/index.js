@@ -30,6 +30,7 @@ import threejs from './tech/threejs.svg'
 import fiverr from './company/fiverr.png'
 import upwork from './company/upwork.png'
 import codify from './company/codify.png'
+import aio from './company/aio.png'
 
 import skillsurge from './skillsurge.png'
 import nextchatter from './nextchatter.png'
@@ -70,6 +71,7 @@ export {
 	fiverr,
 	upwork,
 	codify,
+	aio,
 	skillsurge,
 	nelami,
 	nextchatter,
