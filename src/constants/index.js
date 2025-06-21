@@ -25,6 +25,7 @@ import {
 	upwork,
 	codify,
 	fiverr,
+	aio,
 	skillsurge,
 	nelami,
 	nextchatter,
@@ -124,6 +125,20 @@ const technologies = [
 ]
 
 const experiences = [
+	{
+		title: 'Full Stack Developer',
+		company_name: 'AIO',
+		icon: aio,
+		iconBg: '#000',
+		date: 'August 2024 - Present',
+		points: [
+    			'Actively participated in a Scrum-based agile environment, engaging in sprint planning, daily stand-ups, and sprint reviews to ensure the timely delivery of project milestones.',
+    			'Developed and enhanced essential Inventory and Accounting modules, contributing to the optimization of business processes and overall system efficiency.',
+    			'Integrated Artificial Intelligence (AI) features into the invoices and recipes submodules, introducing intelligent automation and predictive capabilities to enhance user experience and operational accuracy.',
+    			'Collaborated closely with a large, cross-functional team of developers, designers, and product managers to deliver scalable and maintainable solutions aligned with project requirements.',
+    			'Demonstrated strong problem-solving skills by resolving complex technical issues and ensuring seamless integration across multiple modules.',
+		],
+	},
 	{
 		title: 'Full Stack Web Developer',
 		company_name: 'Upwork',
