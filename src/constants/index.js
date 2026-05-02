@@ -30,7 +30,7 @@ export const experiences = [
     period: 'Aug 2024 to Present',
     description:
       'Leading frontend development for the new Menu Manager module. Previously led frontend on the Inventory and Accounting modules in production for SMB customers, including the AI-assisted invoice and recipe submodules that automate manual data entry. Work in cross-functional Scrum teams alongside designers, PMs, and backend engineers to ship features end-to-end.',
-    stack: ['React', 'Node.js', 'TypeScript', 'MongoDB'],
+    stack: ['React', 'NestJS', 'TypeScript', 'PostgreSQL', 'AWS'],
   },
   {
     role: 'Top-Rated Full-Stack Developer',
@@ -57,7 +57,7 @@ export const experiences = [
     period: '2021 to 2023',
     description:
       'Partnered with another freelancer to ship multiple WordPress sites for clients around the world. Held a 99.9% positive feedback rate by sticking to clean structure and basic coding hygiene.',
-    stack: ['WordPress', 'PHP', 'JavaScript'],
+    stack: ['WordPress', 'CSS', 'PHP', 'JavaScript'],
   },
 ];
 
