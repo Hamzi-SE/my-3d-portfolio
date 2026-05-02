@@ -19,7 +19,7 @@ const Contact = () => {
     <section id="contact" className="mt-12 scroll-mt-24" aria-label="Contact">
       <p className="text-sm leading-relaxed text-muted">
         I'm taking on selective freelance work and open to full-time roles where I can build something I actually care
-        about. The fastest way to reach me is email — I read everything within a day.
+        about. The fastest way to reach me is email. I read everything within a day.
       </p>
       <div className="mt-6 flex flex-wrap items-center gap-4">
         <button
