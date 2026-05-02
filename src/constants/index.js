@@ -77,7 +77,7 @@ export const projects = [
       'Subscription MERN LMS with Stripe checkout, course-management admin dashboard, Cloudinary media, Nodemailer transactional email, and Redux.',
     stack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
     image: skillsurge,
-    href: 'https://skillsurge.vercel.app/',
+    href: 'https://skillsurge.ihamza.dev/',
     repo: 'https://github.com/Hamzi-SE/Course-Platform',
   },
   {
@@ -86,7 +86,7 @@ export const projects = [
       'Next.js/TypeScript real-time chat with friend requests, multi-room messaging, Pusher notifications, NextAuth authentication, and Zod validation.',
     stack: ['Next.js', 'TypeScript', 'Pusher', 'Redis', 'Tailwind CSS'],
     image: nextchatter,
-    href: 'https://nextchatter.vercel.app/',
+    href: 'https://nextchatter.ihamza.dev/',
     repo: 'https://github.com/Hamzi-SE/NextChatter',
   },
   {
