@@ -1,61 +1,58 @@
-import { motion } from 'framer-motion';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-
-import 'react-vertical-timeline-component/style.min.css';
-import { styles } from '../styles';
-
 import { experiences } from '../constants';
-import { SectionWrapper } from '../hoc';
-import { textVariant } from '../utils/motion';
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceItem = ({ role, company, companyUrl, period, description, stack }) => {
   return (
-    <VerticalTimelineElement
-      contentStyle={{ background: '#1d1836', color: '#fff' }}
-      contentArrowStyle={{ borderRight: '7px solid #232631' }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className="flex justify-center items-center w-full h-full">
-          <img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
-        </div>
-      }
-    >
-      <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
-          {experience.company_name}
-        </p>
-      </div>
+    <li className="group relative grid grid-cols-12 gap-4 py-6 transition-all sm:gap-6 lg:py-8 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-surface/40 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]" />
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
-          <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider ">
-            {point}
-          </li>
-        ))}
-      </ul>
-    </VerticalTimelineElement>
+      <header
+        className="z-10 col-span-12 mt-1 font-mono text-xs uppercase tracking-[0.2em] text-muted lg:col-span-3"
+        aria-label={period}
+      >
+        {period}
+      </header>
+
+      <div className="z-10 col-span-12 lg:col-span-9">
+        <h3 className="font-medium leading-snug text-text-strong">
+          <a
+            href={companyUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="group/link inline-flex items-baseline font-medium leading-tight text-text-strong hover:text-accent focus-visible:text-accent"
+          >
+            <span>
+              {role} <span className="text-muted">·</span> <span className="text-accent">{company}</span>
+            </span>
+            <span aria-hidden className="ml-1 inline-block transition-transform group-hover/link:translate-x-0.5">
+              ↗
+            </span>
+          </a>
+        </h3>
+        <p className="mt-2 text-sm leading-relaxed text-text">{description}</p>
+        {stack?.length ? (
+          <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-1 font-mono text-[11px] text-muted">
+            {stack.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    </li>
   );
 };
 
 const Experience = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
-      </motion.div>
+    <section id="experience" className="mb-24 scroll-mt-24 lg:mb-32" aria-label="Experience">
+      <h2 className="mb-4 font-mono text-xs uppercase tracking-[0.2em] text-text-strong lg:sr-only">Experience</h2>
 
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
-          ))}
-        </VerticalTimeline>
-      </div>
-    </>
+      <ol className="group/list">
+        {experiences.map((exp) => (
+          <ExperienceItem key={`${exp.company}-${exp.period}`} {...exp} />
+        ))}
+      </ol>
+    </section>
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default Experience;
