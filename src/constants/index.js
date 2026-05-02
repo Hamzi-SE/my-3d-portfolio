@@ -95,7 +95,7 @@ export const projects = [
       'Next.js 14 Discord clone with video/audio calls, server creation, dynamic invite links, role moderation, Uploadthing media, Clerk auth, and Socket.IO group/private chats.',
     stack: ['Next.js', 'TypeScript', 'Socket.IO', 'Clerk'],
     image: discord,
-    href: null,
+    href: 'https://discord-clone.ihamza.dev/',
     repo: 'https://github.com/Hamzi-SE/discord-clone',
   },
   {
